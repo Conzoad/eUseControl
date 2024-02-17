@@ -107,7 +107,7 @@
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\home\Index.cshtml" />
+    <Content Include="Views\home\Index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

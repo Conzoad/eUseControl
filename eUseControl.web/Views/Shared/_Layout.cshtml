@@ -1,40 +1,56 @@
-﻿<!DOCTYPE html>
-<html>
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Furbar - Furniture eCommerce Bootstrap 5 Template</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
+
+
+
+    @Styles.Render("~/bundles/main/css")
+    @Styles.Render("~/bundles/animate/css")
+    @Styles.Render("~/bundles/peicon7stroke/css")
+    @Styles.Render("~/bundles/font-awesome/css")
+    @Styles.Render("~/bundles/odometer/css")
+    @Styles.Render("~/bundles/nice-select/css")
+    @Styles.Render("~/bundles/select2/css")
+    @Styles.Render("~/bundles/rangeSlider/css")
+    @Styles.Render("~/bundles/style/css")
+
+
 </head>
+
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
-            </div>
-        </div>
-    </div>
+    <header>
+        @Html.Partial("_Header")
+    </header>
+    @RenderBody()
+    <footer>
+        @Html.Partial("_Footer")
+    </footer>
+    <!-- JS
+    ============================================ -->
 
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
-
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+    @Styles.Render("~/bundles/bootstrap/js")
+    @Styles.Render("~/bundles/modernizr/js")
+    @Styles.Render("~/bundles/jquery/js")
+    @Styles.Render("~/popper/bootstrap/js")
+    @Styles.Render("~/bundles/swiper-bundle/js")
+    @Styles.Render("~/bundles/ajax-contact/js")
+    @Styles.Render("~/bundles/appear/js")
+    @Styles.Render("~/bundles/odometer/js")
+    @Styles.Render("~/bundles/jquery.nice-select/js")
+    @Styles.Render("~/bundles/select2/js")
+    @Styles.Render("~/bundles/ion.rangeSlider/js")
+    @Styles.Render("~/bundles/jquery.zoom/js")
+    @Styles.Render("~/bundles/main/js")
 </body>
+
 </html>

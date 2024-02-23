@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using eUseControl.web.App_Start;
+using System.Web.Optimization;
 
 namespace eUseControl.web
 {
@@ -13,6 +15,7 @@ namespace eUseControl.web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }

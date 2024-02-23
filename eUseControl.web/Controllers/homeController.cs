@@ -13,5 +13,9 @@ namespace eUseControl.web.App_Start
         {
             return View();
         }
+        public ActionResult about()
+        {
+            return View();
+        }
     }
 }

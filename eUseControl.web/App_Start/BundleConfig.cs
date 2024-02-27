@@ -25,6 +25,10 @@ namespace eUseControl.web.App_Start
             bundles.Add(new StyleBundle("~/bundles/peicon7stroke/css").Include(
                       "~/assets/css/plugins/pe-icon-7-stroke.css", new CssRewriteUrlTransform()));
 
+            // Pe-icon-7-stroke
+            bundles.Add(new StyleBundle("~/bundles/swiper-bundle.min/css").Include(
+                      "~/assets/css/plugins/swiper-bundle.min.css", new CssRewriteUrlTransform()));
+
 
             // Font Awesome icons style
             bundles.Add(new StyleBundle("~/bundles/font-awesome/css").Include(
@@ -62,7 +66,7 @@ namespace eUseControl.web.App_Start
                       "~/assets/js/vendor/jquery-3.5.1.min.js"));
 
             // popper
-            bundles.Add(new ScriptBundle("~/popper/bootstrap/js").Include(
+            bundles.Add(new ScriptBundle("~/bundles/popper/js").Include(
                       "~/assets/js/plugins/popper.min.js"));
 
             // swiper-bundle

@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eUseControl.Domain.Entityes.Product.DBModel
+namespace eUseControl.Domain.Entityes.User.DbModel
 {
-    internal class Product
+    public class User
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
-        public decimal Price { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string UserName { get; set; }
     }
 }

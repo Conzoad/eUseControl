@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace eUseControl.Domain.Entityes.Product
 {
-    internal class ProductDataModel
+    public class ProductDataModel
     {
-        public DBModel.Product SingleProduct { get; set; }
-        public List<DBModel.Product> Products { get; set; }
+        public ModelDB.Product SingleProduct { get; set; }
+        public List<ModelDB.Product> Products { get; set; }
     }
 }

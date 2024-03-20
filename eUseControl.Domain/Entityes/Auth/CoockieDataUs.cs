@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eUseControl.Domain.Entityes.Auth
 {
-    internal class UCoockieData
+    public class CoockieDataUs
     {
         public int MaxAge { get; set; }
         public string Coockie { get; set; }

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using eUseControl.BussinesLogic.Core.Poco;
-using eUseControl.BussinesLogic.Interface;
+using eUseControl.Businesslogic.core.poco;
+using eUseControl.Businesslogic.Interface;
 
-namespace eUseControl.BussinesLogic.MainBL
+namespace eUseControl.Businesslogic.mainbl
 {
     public class AdministrationBL : PocoProduct, IAdministration
     {

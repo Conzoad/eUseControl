@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eUseControl.Businesslogic.Interface
+namespace eUseControl.Businesslogic.core.Level
 {
-    public interface IAdministration
+    internal class AdminAPI
     {
     }
 }

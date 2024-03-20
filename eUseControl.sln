@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUseControl.web", "eUseControl.web\eUseControl.web.csproj", "{DCE76A4F-05AF-4C20-A467-A3A7067EB4FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUseControl.Busineslogic", "eUseControl.Busineslogic\eUseControl.Busineslogic.csproj", "{A200AC83-E861-4EAC-A53F-411A31DF06BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUseControl.Businesslogic", "eUseControl.Busineslogic\eUseControl.Businesslogic.csproj", "{A200AC83-E861-4EAC-A53F-411A31DF06BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUseControl.Domain", "eUseControl.Domain\eUseControl.Domain.csproj", "{2C9F5055-A1D4-40F9-8491-2FE2B924D42D}"
 EndProject

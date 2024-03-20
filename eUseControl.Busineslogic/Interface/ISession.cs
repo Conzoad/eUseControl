@@ -8,11 +8,11 @@ using eUseControl.Domain.Entityes.GeneralResponce;
 using eUseControl.Domain.Entityes.User;
 using eUseControl.Domain.Entityes.User.DbModel;
 
-namespace eUseControl.Busineslogic.IAdministration
+namespace eUseControl.Businesslogic.Interface
 {
     internal interface ISession
     {
         RResponceData UserLoginAction(ULoginData data);
-        UCoockieData GenCoockieAlgo(User dataUser);
+        CoockieDataUs GenCoockie(User dataUser);
     }
 }

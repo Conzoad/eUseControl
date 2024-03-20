@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using eUseControl.BussinesLogic.Interface;
+using eUseControl.Busineslogic.core.Level;
+using eUseControl.Businesslogic.Interface;
 using eUseControl.Domain.Entityes.Product;
 
-namespace eUseControl.BussinesLogic.MainBL
+namespace eUseControl.Businesslogic.mainbl
 {
     public class ProductBL : UserAPI, IProduct
     {

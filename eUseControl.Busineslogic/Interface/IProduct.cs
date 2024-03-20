@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using eUseControl.Domain.Entityes.Product;
 
 
-namespace eUseControl.Busineslogic.IAdministration
+namespace eUseControl.Businesslogic.Interface
 {
     internal interface IProduct
     {

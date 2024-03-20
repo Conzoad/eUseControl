@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using eUseControl.Busineslogic.Interface;
-using eUseControl.Busineslogic.MainBL;
+using eUseControl.Businesslogic.Interface;
+using eUseControl.Businesslogic.mainbl;
 
 
-namespace eUseControl.Busineslogic.core.poco
+namespace eUseControl.Businesslogic.core.poco
 {
     public class PocoProduct : ProductBL
     {

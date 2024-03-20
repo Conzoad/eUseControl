@@ -213,7 +213,6 @@
     <Content Include="assets\images\images-gallery\image-2.jpg" />
     <Content Include="assets\images\images-gallery\image-3.jpg" />
     <Content Include="assets\images\images-gallery\image-4.jpg" />
-    <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\marker.jpg" />
     <Content Include="assets\images\page-banner.jpg" />
     <Content Include="assets\images\payment-2.png" />

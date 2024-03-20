@@ -61,7 +61,7 @@ namespace eUseControl.web.App_Start
             bundles.Add(new ScriptBundle("~/bundles/modernizr/js").Include(
                       "~/assets/js/vendor/modernizr-3.11.2.min.js"));
 
-            // jquery
+            // bootstrap.min
             bundles.Add(new ScriptBundle("~/bundles/jquery/js").Include(
                       "~/assets/js/vendor/jquery-3.5.1.min.js"));
 

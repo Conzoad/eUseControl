@@ -244,6 +244,7 @@
     <Content Include="assets\images\slider\slider-item-1.png" />
     <Content Include="assets\images\slider\slider-item-2.png" />
     <Content Include="assets\images\slider\slider-item-3.png" />
+    <Content Include="assets\images\team\logo1.png" />
     <Content Include="assets\images\team\team-1.jpg" />
     <Content Include="assets\images\team\team-2.jpg" />
     <Content Include="assets\images\team\team-3.jpg" />
@@ -318,14 +319,19 @@
     <Content Include="Scripts\jquery-ui-1.13.2.js" />
     <Content Include="Scripts\jquery-ui-1.13.2.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\home\real_login.cshtml" />
+    <Content Include="Views\home\myaccount.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="Controllers\homeController.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\loginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\logindata.cs" />
+    <Compile Include="Models\userdata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -477,8 +483,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\BundlConfig\" />
+    <Folder Include="Views\Default\" />
+    <Folder Include="Views\login\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

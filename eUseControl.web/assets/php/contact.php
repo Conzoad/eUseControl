@@ -590,7 +590,7 @@
 
         $email_headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-        $email_headers .= 'From:' . $first_name . ' ' . 'noreply@yourdomain.com' . "\r\n";
+        $email_headers .= 'From:' . $first_name . ' ' . 'noreply@yourDomain.com' . "\r\n";
 
         $email_headers .= 'Reply-To:' . $email . "\r\n";
 

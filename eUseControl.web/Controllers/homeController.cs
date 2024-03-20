@@ -17,5 +17,15 @@ namespace eUseControl.web.App_Start
         {
             return View();
         }
+        public ActionResult real_login()
+        {
+            return View();
+        }
+        public ActionResult myaccount()
+        {
+            return View();
+        }
+        
+
     }
 }
